@@ -7,5 +7,13 @@ def count(num):
         count(num - 1)
 
 
+# 阶乘
+def factorial(num):
+    if num == 1:
+        return 1
+    else:
+        return num * factorial(num - 1)
+
+
 if __name__ == '__main__':
-    count(10)
+    print(factorial(5))
