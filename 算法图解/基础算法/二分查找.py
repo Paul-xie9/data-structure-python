@@ -14,7 +14,6 @@ def binary_search(list, item):
         else:
             return "数组中没有你要查找的" + str(item) + "元素"
 
-
 if __name__ == '__main__':
     my_list = [1, 3, 4, 6, 21, 23, 34, 35]
     result = binary_search(my_list, 34)
