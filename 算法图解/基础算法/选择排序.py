@@ -18,7 +18,7 @@ def selectionSort(arr):
 
 
 if __name__ == '__main__':
-    arr = [1, 4, 12, 3, 644, 323, 0]
+    arr = [1, 4, 12, 3, 644, 323, 0,4231]
     print(selectionSort(arr))
 
     # res = findSmallest(arr)
